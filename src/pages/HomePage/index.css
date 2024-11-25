@@ -1,0 +1,184 @@
+.homepage-container {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.homepage-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #ffffff;
+    border-bottom: 2px solid #dcdcdc;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.apply-button {
+    background-color: #008cfa;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.apply-button:hover {
+    background-color: #0078d4;
+}
+
+.user-info {
+    display: flex;
+    gap: 10px;
+    padding: 20px 20px 0 20px;
+    background: #ffffff;
+    width: 90dvw;
+}
+
+.user-avatar {
+    width: 35dvw;
+    height: 120px;
+    background: #35B8FC4D;
+    border-radius: 15px;
+}
+
+.user-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+    background-color: #E1E1E14D;
+    color: #0000004D;
+    width: 50dvw;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.user-personal-details {
+    color: #0000004D;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.user-personal-details-birth {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.user-name {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: column;
+}
+
+.user-details-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-metadata {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-score {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.earn-button {
+    background-color: #0000004D;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    width: 52px;
+    height: 32px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.health-table {
+    padding: 20px;
+    background: #ffffff;
+}
+
+.health-table h3 {
+    color: #008cfa;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.source-button {
+    background-color: #008cfa;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.source-button:hover {
+    background-color: #0078d4;
+}
+
+.homepage-nav {
+    display: flex;
+    justify-content: space-around;
+    background: #f9f9f9;
+    padding: 10px 0;
+    border-top: 2px solid #dcdcdc;
+}
+
+.homepage-nav button {
+    background: none;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    color: #555;
+}
+
+.homepage-nav button.active {
+    color: #008cfa;
+    border-bottom: 2px solid #008cfa;
+}
+
+.homepage-footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+    background: #ffffff;
+    border-top: 2px solid #dcdcdc;
+}
+
+.homepage-footer span {
+    margin: 0 10px;
+}

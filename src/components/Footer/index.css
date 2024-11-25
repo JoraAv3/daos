@@ -1,0 +1,72 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 100dvw;
+    padding: 20px;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    width: 90dvw;
+}
+
+.nav-link {
+    background-color: #e6f7ff;
+    color: #008cfa;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    font-size: 10px;
+    height: 52px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+* {
+    -webkit-tap-highlight-color: transparent;
+    /* Убирает фон для всех элементов */
+}
+
+.nav-link.active {
+    -webkit-tap-highlight-color: transparent;
+    background-color: #008cfa;
+    color: #ffffff;
+    border: none;
+    outline: none;
+}
+
+.nav-link:focus {
+    outline: none;
+}
+
+.nav-link.disable {
+    color: #ccc;
+    pointer-events: none;
+}
+
+.disable {
+    background-color: #35B8FC4D;
+    color: #FFFFFF4D;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 12px;
+    color: #777777;
+    width: 90dvw;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #777777;
+}

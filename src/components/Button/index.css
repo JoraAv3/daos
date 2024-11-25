@@ -1,0 +1,13 @@
+.custom-button {
+    height: 50px;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 24px;
+    border-radius: 16px;
+    background-color: #35B8FC;
+    color: black;
+    font-size: 14px;
+    border: none;
+}
